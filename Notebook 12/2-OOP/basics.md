@@ -1,5 +1,7 @@
 # **Parameter VS Attributes VS Arguments.**
 
+
+```
 class Student:
     def __init__(self, name, age):  # ← parameters
         self.name = name            # ← attributes
@@ -8,6 +10,7 @@ class Student:
 # create object with arguments
 s1 = Student("Arishba", 18)         # ← arguments
 print(s1.name)
+```
 
 | Term      | What It Is                              | Where It Appears                  | Example Value   |
 | --------- | --------------------------------------- | --------------------------------- | --------------- |
